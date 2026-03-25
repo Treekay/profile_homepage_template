@@ -1,0 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.next-section {
+  min-height: 100%;
+  padding: 80px 24px;
+  background: #111;
+  color: white;
+}

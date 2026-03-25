@@ -1,0 +1,18 @@
+:root {
+  --text: #222;
+  --muted: #666;
+  --border: #ebebeb;
+  --bg: #fafafa;
+  --card-border: #ddd;
+  --shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
+  --shadow-hover: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  overflow-x: hidden;
+}
