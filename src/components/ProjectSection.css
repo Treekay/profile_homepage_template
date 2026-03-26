@@ -14,7 +14,7 @@
   width: min(1250px, 100%);
   display: grid;
   grid-template-columns: minmax(520px, 1.15fr) minmax(360px, 0.95fr);
-  align-items: start;
+  align-items: center;
   gap: 60px;
 }
 
@@ -36,7 +36,10 @@
 
 .project-info {
   color: #fff;
-  max-width: 1200px;
+  max-width: 1400px;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
 }
 
 .project-inner.reverse .project-info {
